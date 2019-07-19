@@ -1,0 +1,19 @@
+-
+    var socialList = [
+        {"icon": 'instagram', url:'#'},
+        {icon: 'whatsapp', url:'#'},
+        {icon: 'youtube', url:'#'},
+        {icon: 'twitter', url:'#'},
+        {icon: 'githup', url:'#'},
+        {icon: 'skype', url:'#'},
+    ]
+h1.header Contact
+h2.subtitles Online: Social media
+ul.table-icon
+    each social in socialList
+        li.table-icon-font
+            label.table-icon-font-item
+                span(class=`business__icon--${social.icon}`)
+
+
+h2.subtitles Other contact
